@@ -1,9 +1,9 @@
 # HELM
 Hierarchical Neural Networks
 
-Please cite:
+## Please cite:
 
-Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.” 
+Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. *“Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.”*
 ArXiv Preprint ArXiv:1810.05550, 2018.
 
 	@article{michau_feature_2018,
@@ -16,7 +16,7 @@ ArXiv Preprint ArXiv:1810.05550, 2018.
 
 or 
 
-Michau, Gabriel, Thomas Palmé, and Olga Fink. “Deep Feature Learning Network for Fault Detection and Isolation.” 
+Michau, Gabriel, Thomas Palmé, and Olga Fink. *“Deep Feature Learning Network for Fault Detection and Isolation.”* 
 In Annual Conference of the Prognostics and Health Management Society 2017. St. Petersburg, Florida, 2017.
 
     @inproceedings{michau_deep_2017,
