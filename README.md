@@ -5,7 +5,7 @@ Please cite:
 
 Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.” ArXiv Preprint ArXiv:1810.05550, 2018.
 
-@article{michau_feature_2018,
+@article{michau_feature_2018,\n
 	title = {Feature learning for fault detection in high-dimensional condition-monitoring signals},
 	journal = {arXiv preprint arXiv:1810.05550},
 	author = {Michau, Gabriel and Hu, Yang and Palmé, Thomas and Fink, Olga},
