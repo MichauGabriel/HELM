@@ -3,7 +3,8 @@ This file is subject to the terms and conditions defined in
 file 'LICENSE.txt', which is part of this source code package.
 
 Code for training and running the HELM as in
-Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.” ArXiv Preprint ArXiv:1810.05550, 2018.
+Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.”
+ArXiv Preprint ArXiv:1810.05550, 2018.
 
 Author: Gabriel Michau
 
@@ -29,9 +30,9 @@ vali_x,test_x  = mmm.mapminmax_a(paramap, vali_x, test_x)
 # Hyperparameters of HELM
 para={}
 para['nhelm']         = 5                  # number of times HELM is trained and ran
-para['neuron_number'] = np.array([20,100]) # HELM structure : 1 AE of size 20, one 1-class claissifier of size 100
+para['neuron_number'] = np.array([20,100]) # HELM structure : 1 AE of size 20, one 1-class classifier of size 100
 para['fista_weight']  = 1e-3               # weight for AE sparse regularization
-para['fista_cv']      = 1e-5               # Number of iterations or RMSE
+para['fista_cv']      = 1e-5               # Number of iterations (if >1) or max RMSE on iterates (if <1)
 para['ridge_weight']  = 1e-5               # weight for last layer regularization
 
 #%% Train HELM
