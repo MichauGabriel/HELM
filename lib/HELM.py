@@ -133,11 +133,10 @@ def HELM_run(model,**kwargs):
             # Auto-Encoder
             x=np.copy(kwargs[key])   # e.g. x=test_x
             for i in range(number_of_AE_layers):
-                x = np.hstack((x, 0.1*np.ones((x.shape[0],1))))
-                x, = mmm.mapminmax_a(model[helm]['ps'][i], x.dot(model[helm]['beta'][i].T))
+                x = np.hstack((x, 0.1*np.ones((x.shape[0],1)))).dot(model[helm]['beta'][i].T)
                 if i==0:
                     out[key]['Res']+=np.abs(x.dot(model[helm]['beta'][i][:,:-1])-kwargs[key])/nhelm
-
+		x, = mmm.mapminmax_a(model[helm]['ps'][i], x)
             # 1 class classifier ELM
             x = np.hstack((x, 0.1*np.ones((x.shape[0],1))))
             h = (np.tanh(x.dot(model[helm]['elmweight']))).dot(model[helm]['beta'][number_of_AE_layers])
