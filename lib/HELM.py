@@ -7,7 +7,7 @@ Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for 
 
 Author: Gabriel Michau
 
-Version: 30/10/2018
+Version: 13/03/2019
 """
 
 import numpy as np
