@@ -26,6 +26,7 @@ def FISTA_l2_l1(A,b,lam,itrs):
     OUTPUT:
         x: matrix of size m.n
     """
+    global thrshld
     if not isinstance(A,np.ndarray):
         raise ValueError("First input should be of type numpy.ndarray (of dim 2)")
     if A.shape.__len__()<2:
