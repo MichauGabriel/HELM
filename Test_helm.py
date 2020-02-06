@@ -13,6 +13,7 @@ Version: 30/10/2018
 
 import numpy as np
 import random
+import matplotlib.pyplot as plt
 
 from lib import mapminmax as mmm
 from lib import HELM
@@ -46,11 +47,12 @@ out=HELM.HELM_run(model,train=train_x,val=vali_x,test=test_x)
 quant = 99.9;
 thr   = 1.5 * np.percentile(out['val']['Y'],quant)
 
-import matplotlib.pyplot as plt
+
 f1 = plt.figure(1)
 f1.clf()
-plt.plot(range(6000),      out['train']['Y']/thr, linestyle='None', marker='o', markerfacecolor='none')
-plt.plot(range(6000,7000), out['val']['Y']  /thr, linestyle='None', marker='o', markerfacecolor='none')
-plt.plot(range(7000,9000), out['test']['Y'] /thr, linestyle='None', marker='o', markerfacecolor='none')
-plt.plot([0,9000],[1,1],color='k')
-
+ax = f1.gca()
+ax.plot(range(6000),      out['train']['Y']/thr, linestyle='None', marker='o', markerfacecolor='none')
+ax.plot(range(6000,7000), out['val']['Y']  /thr, linestyle='None', marker='o', markerfacecolor='none')
+ax.plot(range(7000,9000), out['test']['Y'] /thr, linestyle='None', marker='o', markerfacecolor='none')
+ax.plot([0,9000],[1,1],color='k')
+plt.show()
