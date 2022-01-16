@@ -3,15 +3,17 @@ Hierarchical Neural Networks
 
 ## Please cite:
 
-Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. *“Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.”*
-ArXiv Preprint ArXiv:1810.05550, 2018.
+Michau, G., Hu, Y., Palmé, T., & Fink, O. (2020). Feature learning for fault detection in high-dimensional condition monitoring signals. Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability, 234(1), 104-115.
 
-	@article{michau_feature_2018,
-	    title = {Feature learning for fault detection in high-dimensional condition-monitoring signals},
-	    journal = {arXiv preprint arXiv:1810.05550},
-	    author = {Michau, Gabriel and Hu, Yang and Palmé, Thomas and Fink, Olga},
-	    year = {2018},
-	    url = {https://arxiv.org/pdf/1810.05550.pdfl}
+	@article{michau2020feature,
+	  title={Feature learning for fault detection in high-dimensional condition monitoring signals},
+	  author={Michau, Gabriel and Hu, Yang and Palm{\'e}, Thomas and Fink, Olga},
+	  journal={Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability},
+	  volume={234},
+	  number={1},
+	  pages={104--115},
+	  year={2020},
+	  publisher={SAGE Publications Sage UK: London, England}
 	}
 
 or 
