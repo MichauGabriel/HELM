@@ -3,7 +3,8 @@ This file is subject to the terms and conditions defined in
 file 'LICENSE.txt', which is part of this source code package.
 
 Code for training and running the HELM as in
-Michau, Gabriel, Yang Hu, Thomas Palmé, and Olga Fink. “Feature Learning for Fault Detection in High-Dimensional Condition-Monitoring Signals.” ArXiv Preprint ArXiv:1810.05550, 2018.
+Michau, G., Hu, Y., Palmé, T., & Fink, O. (2020). Feature learning for fault detection in high-dimensional condition monitoring signals. 
+Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability, 234(1), 104-115.
 
 Author: Gabriel Michau
 
