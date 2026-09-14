@@ -99,7 +99,7 @@ for i_exp,n1C in enumerate(n1Clist):
 fig = plt.figure(3)
 fig.clf()
 plt.plot(n1Clist,meanAS)
-## 200-250 should be in the elbow of the resulting L-curve, it's a good compromise between reconstruction and number of neurons
+## 200-250 should be in the elbow of the resulting L-curve, it's a good compromise between minimising health score on healthy validation and number of neurons
 n1C = 250
 #%% Runnning helm with these parameters (you should get a better separation faulty/non fautly)
 ## and finding which features are most likely faulty through the residual
