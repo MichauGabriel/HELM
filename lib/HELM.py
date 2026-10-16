@@ -12,8 +12,8 @@ Version: 13/03/2019
 """
 
 import numpy as np
-from lib import mapminmax as mmm
-from lib import FISTA_l2_l1 as fista
+from . import mapminmax as mmm
+from . import FISTA_l2_l1 as fista
 
 def HELM(para,train_x,train_y=1):
     """
